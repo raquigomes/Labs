@@ -29,3 +29,30 @@ taxaJuro = float(input("Qual a taxa de juro? "))
 formula = capital * taxaJuro * anos
 print(formula)
 
+#Exercicio 6
+#Capital that an investor obtained after investing a capital of 200 during 3 years with an interest rate of 3%.
+capital = float(input("Qual o capital investido? "))
+anos = float(input("Quantos anos? "))
+taxaJuro = float(input("Qual a taxa de juro? "))
+formula= capital * (1+ taxaJuro)**anos
+print(formula)
+
+#Exercicio 7
+#Calcular o indice de massa corporal
+altura = float(input("Qual a sua altura? "))
+peso = float(input("Qual o seu peso? "))
+#altura = altura **2
+#formula = peso / altura
+formula = peso / (altura**2)
+print(formula)
+
+#Exercicio 8
+#Calcule the Golden ration:
+#a -  Solve the problem without using libraries
+parteSuperior = 1+ 5**(1/2)
+GoldenRatio = (parteSuperior / 2)
+print(GoldenRatio)
+#b - Use module math (import math) and function sqr (math.sqrt)
+import math
+gr=(1+math.sqrt(5))/2
+print(gr)
