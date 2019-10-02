@@ -1,0 +1,31 @@
+#Exercicio 1
+#Verificar se o valor está inteiro
+valor = 3.5
+int(valor) == valor
+
+#Exercicio 2
+#Verificar se um valor é par
+valor = 5
+valor % 2 == 0
+#So e par se for igual a 0
+
+#Exercicio 3
+#Insert two numbers. Is the first is bigger than the second?
+valor1 = 0
+valor2 = 1
+valor1 > valor2
+
+#Exercicio 4
+#Se um valor é multiplo do outro
+valor1 = 3
+valor2 = 9
+valor1 % valor2 == 0 or valor2 % valor1 == 0
+
+#Exercicio 5
+#Calculate the interest earn by an investor that invested a capital of 200 during 3 years with an interest rate of
+capital = float(input("Qual o capital investido? "))
+anos = float(input("Quantos anos? "))
+taxaJuro = float(input("Qual a taxa de juro? "))
+formula = capital * taxaJuro * anos
+print(formula)
+
