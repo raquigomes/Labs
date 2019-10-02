@@ -56,3 +56,53 @@ print(GoldenRatio)
 import math
 gr=(1+math.sqrt(5))/2
 print(gr)
+
+#Exercicio 9
+'''Calculete the NPV (Net present value) of an investment, considering an initial investment of 10000, the following
+Cashflows 2000,3000, 4000, 4000 and 5000 and a discount rate of 10%.
+Where:
+FV = Future cost of the cash inflows, I = Initial Investment k = Discount rate equal to the owner’s cost of capital'''
+
+#Exercicio 10
+'''Ask the user to insert name and age. Calculate the the birth. Print a result saying the 'this person was born in'
+1. Solve the problem without using modules and libraries
+2. Solve the problem using the date library from module datetime, as fallow:
+from datetime import date
+today = date.today()
+today.year'''
+name = input("Insira o seu nome: ")
+age = input("Insira a sua idade: ")
+#1
+
+
+#2
+from datetime import date
+today = date.today()
+today.year
+
+#Exercicio 11
+'''Ask the user to insert forenames, surnames. create a new variable (name) with your complete name.
+Create the follwoing variables:
+nameBig, where all the characters of the name are capitalized
+nameTitle, where the only the first character of each name (word) is capitalized
+nameSmall, where all the characters of the name are lower
+nameCapitalized, where only the first charater of the first name is capitalized'''
+name = input("Qual é o teu nome: ")
+nameBig = name.upper()
+print(nameBig)
+nameTitle = name.title()
+print(nameTitle)
+nameSmall = name.lower()
+print(nameSmall)
+nameCapitalized = name.capitalize()
+print(nameCapitalized)
+
+#Exercicio 12
+'''Supopose that your name is stored in the variable name. Use the follwoing method to show where in which
+carater appears the firs "da".
+str.find(sub,start,end)
+str - variable to be abalysed
+sub - expression to find in the variable str
+start and end are optional values corresponding to the beginning and end posit
+ion to search.
+What happens if does not find?'''
